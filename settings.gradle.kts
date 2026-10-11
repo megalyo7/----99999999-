@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "JARVIS-OMEGA"
+rootProject.name = "JARVIS OMEGA 99999999"
 include(":app")

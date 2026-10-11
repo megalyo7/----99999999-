@@ -9,8 +9,8 @@ android {
         applicationId = "com.omega.jarvis"
         minSdk = 24
         targetSdk = 34
-        versionCode = 1
-        versionName = "OMEGA-99999999"
+        versionCode = 99999999
+        versionName = "99999999"
     }
     buildTypes {
         release {
@@ -18,8 +18,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = "1.8"
     }
 }
 dependencies {
